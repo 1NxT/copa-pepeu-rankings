@@ -6,19 +6,19 @@ export interface Participante {
 
 export async function getRanking(): Promise<Participante[]> {
   const participantes = [
-    { nome: "Ronis", titulos: 5 },
+    { nome: "Ronis", titulos: 6 },
+    { nome: "Richard", titulos: 5 },
+    { nome: "Lucas branco", titulos: 5 },
     { nome: "Lucão", titulos: 4 },
     { nome: "Heber", titulos: 3 },
-    { nome: "Richard", titulos: 3 },
-    { nome: "Lucas branco", titulos: 3 },
     { nome: "Nando", titulos: 3 },
+    { nome: "Caveira", titulos: 3 },
     { nome: "Brunão", titulos: 2 },
-    { nome: "Caveira", titulos: 2 },
     { nome: "Bia", titulos: 1 },
-    { nome: "Lucas Preto", titulos: 1 },
+    { nome: "Lucas Preto", titulos: 2 },
     { nome: "Renato", titulos: 1 },
-    { nome: "Breno", titulos: 1 },
-    { nome: "Tutui", titulos: 0 },
+    { nome: "Breno", titulos: 2 },
+    { nome: "Tutui", titulos: 1 },
   ];
 
   // Ordena por títulos (decrescente)
